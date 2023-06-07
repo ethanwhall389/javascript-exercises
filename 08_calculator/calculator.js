@@ -14,9 +14,13 @@ const subtract = function() {
   return finalSubtraction;
 };
 
-const sum = function() {
-	
-};
+const sum = function(array) {
+    let sum = 0;
+  for (i = 0; i < array.length; i++) {
+    sum+= array[i];
+  }
+  return Number(sum);
+}; 
 
 const multiply = function() {
 
